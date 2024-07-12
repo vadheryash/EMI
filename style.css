@@ -1,0 +1,314 @@
+
+
+/*home*/
+
+html
+{
+	scroll-behavior:smooth;
+	
+}
+.nevbar
+{
+	background-color:white;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.nevbar a
+{
+	font-size:20px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:5px;
+	text-decoration:none;
+	font-family:Century;
+	color:black;
+	position:relative;
+	letter-spacing:0.5px;
+}
+.nevbar a:after
+{
+	content:"";
+	position:absolute;
+	background-color:red;
+	height:4px;
+	width:0;
+	left:0;
+	bottom:-4px;
+	transition:0.4s;
+}
+.nevbar a:hover:after
+{
+	color:red;
+	width:100%;
+}
+.nevbar img
+{
+	height:60px; 
+}
+.active
+{
+	border-bottom:4px solid red ;
+}
+.image
+{
+	background-image:url("image/banner1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:650px;
+	padding-right:25px;
+	padding-top:32%;
+	padding-left:85%;
+}
+.box
+{
+	border:2px solid white ;
+	border-radius:4px;
+	text-align:center;
+	height:40px;
+	
+}
+.box a
+{
+	color:white;
+	font-weight:bold;
+	font-size:24px;
+	text-decoration:none;
+}
+.box a:hover
+{
+	color:GOLDENROD;
+}
+.box2
+{
+	background-image:url("image/box.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:20px;	
+}
+
+.ibox 
+{	
+	border:1px solid lightgray;
+	padding:10px;
+	border-radius: 10px;
+	height:140px;
+	padding:2px;
+	background-color:;
+	text-align:center;
+}
+.ibox a
+{
+	color:Black;
+	font-size:15px;
+	text-decoration:none;
+}
+.ibox:hover
+{
+	border:1px solid lightgray;
+	border-radius: 10px;
+	box-shadow: 1px 1px 60px lightgray ;
+}
+.ibox img
+{
+	height:130px;
+}
+
+
+/*estock*/
+
+
+.ibox1 
+{	
+	border:1px solid lightgray;
+	padding:10px;
+	border-radius: 10px;
+	height:320px;
+}
+.ibox1:hover
+{
+	border:1px solid lightgray;
+	border-radius: 10px;
+	box-shadow: 1px 1px 60px lightgray ;
+}
+.ibox1 a
+{
+	color:Black;
+	font-size:15px;
+	text-decoration:none;
+}
+.ibox1 p
+{
+	font-size:20px;
+}
+
+
+/*about us*/
+
+
+.heading
+{
+	font-weight:bold;
+	font-size:42px;
+}
+.containera
+{
+	
+	margin-left:18%;
+	margin-right:18%;
+}
+.containera p
+{
+	font-family:poppins;
+	font-size:18px;
+}
+h3
+{
+	color:red;
+	text-align:center;
+	font-weight:bold;
+}
+
+/*feedback*/
+
+
+td
+{	
+	padding-bottom:15px;
+}
+.td input
+{
+	font-weight:lighter;
+	height:35px;
+	width:500px;
+	padding-left:10px;
+	border-radius:4px;
+	border:1px solid gray;
+	padding-left:10px;
+	font-size: 16px;
+}
+.control
+{
+	width:500px;
+	padding-left:10px;
+	border-radius:4px;
+	border:1px solid gray;
+	padding-left:10px;
+	font-size: 16px;
+}
+.btn
+{
+	background-color:red;
+	color:white;
+	height:45px;
+	width: 20%;
+	font-size:24px;
+	border-radius:40px;
+}
+.btn:hover
+{
+	color:white;
+	border:0px;
+	box-shadow:1px 1px 10px red;
+	background:linear-gradient(to right, brown,red,red,red,brown);
+}
+
+/*login*/
+.content
+{
+	margin:0% 0% 0% 33%;
+}			
+.content .title
+{
+	font-size: 30px;
+	color:red;
+}
+.content1 a
+{
+	color:black;
+}
+.content1 a:hover
+{
+	color:red;
+	font-weight:600;
+	text-decoration:none;
+}
+.box3 .ibox2 input
+{
+	height:45px;
+	width: 50%;
+	padding-left:10px;
+	font-size: 16px;
+}
+.btn2
+{
+	background-color:red;
+	color:white;
+	height:45px;
+	width: 50%;
+	font-size:24px;
+	border:0px;
+	border-radius:40px;
+}
+.btn2:hover
+{
+	color:white;
+	box-shadow:1px 1px 10px red;
+	background:linear-gradient(to right, brown,red,red,red,brown);
+}
+
+.p
+	{
+	font-size:17px;
+	padding-top:11px;
+	padding-bottom:10px;
+}
+
+
+/*registration*/
+
+
+.container .title
+{
+	font-size: 34px;
+	text-align:center;
+	color:red;
+	font-weight:bold;
+}
+.ibox3
+{
+	padding-bottom:10px;
+}
+.ibox3 input
+{
+	height: 45px;
+	width:60%;
+	font-size: 16px;
+	border-radius: 5px;
+	padding-left: 15px;
+	border: 1px solid lightgray;
+}
+.ibox3 textarea
+{			
+	width:60%;
+	font-size: 16px;
+	border-radius: 5px;
+	padding-left: 15px;
+	border: 1px solid lightgray;
+}
+footer
+{
+	background-color:lightgray;
+	color:black;
+	height:200px;
+	padding:20px;
+}
+footer a
+{
+	color:black;
+	font-size:15px;
+}
+footer a:hover
+{
+	color:red;
+	text-decoration:none;
+}			
